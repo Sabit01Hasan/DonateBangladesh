@@ -8,3 +8,8 @@ function checkInput(id){
         return parseFloat(donation);
     }
 }
+
+function dateTime(){
+    const currentDate = new Date();
+    return `Date : ${currentDate.toString()}`;
+}
